@@ -10,4 +10,7 @@ Rails.application.routes.draw do
 
     # deck of cards lab
     resources "cards"
+
+    resources "companies"
+    resources "contacts"
 end
