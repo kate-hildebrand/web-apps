@@ -7,4 +7,7 @@ Rails.application.routes.draw do
     resources "dice"
     # get an index error, solve by going to app -> views -> dice.
     # create a new file named index.html.erb
+
+    # deck of cards lab
+    resources "cards"
 end
